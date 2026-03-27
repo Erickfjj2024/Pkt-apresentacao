@@ -18,6 +18,7 @@ Pkt-apresentacao/
 └── src/
     ├── main.jsx
     ├── App.jsx
+    ├── index.css
     ├── data/slides.js
     ├── hooks/
     │   ├── useNavigation.js
@@ -30,13 +31,13 @@ Pkt-apresentacao/
 
 ## Fila de Execução do Agente
 
-- [x] **AGENTE_ROADMAP.md** criado (este arquivo)
-- [ ] **Passo 1 (Setup)**: Criar `package.json`, configs Vite/Tailwind/PostCSS e `index.html`. Commitar.
-- [ ] **Passo 2 (Core App)**: Criar `src/main.jsx` e `src/App.jsx` com Fullscreen API e botões de navegação touch. Commitar.
-- [ ] **Passo 3 (Lógica)**: Criar hooks `useNavigation` (Swipe + Teclado) e `useFullscreen`. Commitar.
-- [ ] **Passo 4 (⛔ INTERVENÇÃO HUMANA)**: Parar o loop. Pedir ao Diretor de Produto as 10 URLs das imagens.
-- [ ] **Passo 5 (Dados)**: Criar `src/data/slides.js` com array de 10 slides usando as URLs fornecidas. Commitar.
-- [ ] **Passo 6 (Renderização Visual)**: Construir layout final com `MockupFrame` responsivo. Commitar.
+- [x] **AGENTE_ROADMAP.md** criado
+- [x] **Passo 1 (Setup)**: `package.json`, configs Vite/Tailwind/PostCSS e `index.html`. ✅
+- [ ] **Passo 2 (Core App)**: `src/main.jsx` e `src/App.jsx` com Fullscreen API e botões nav.
+- [ ] **Passo 3 (Lógica)**: Hooks `useNavigation` e `useFullscreen`.
+- [ ] **Passo 4 (⛔ INTERVENÇÃO HUMANA)**: Pedir as 10 URLs das imagens.
+- [ ] **Passo 5 (Dados)**: `src/data/slides.js` com array de 10 slides.
+- [ ] **Passo 6 (Renderização Visual)**: Layout final com `MockupFrame` responsivo.
 
 ## Paleta de Design
 | Token | Valor |

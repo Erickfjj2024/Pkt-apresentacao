@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body, #root {
+  height: 100%;
+  overflow: hidden;
+}
+
+.slide-enter {
+  opacity: 0;
+  transform: translateX(60px);
+}
+
+.slide-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 350ms ease, transform 350ms ease;
+}
+
+.slide-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.slide-exit-active {
+  opacity: 0;
+  transform: translateX(-60px);
+  transition: opacity 350ms ease, transform 350ms ease;
+}
+
+.slide-back-enter {
+  opacity: 0;
+  transform: translateX(-60px);
+}
+
+.slide-back-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 350ms ease, transform 350ms ease;
+}
