@@ -26,18 +26,33 @@ Pkt-apresentacao/
     └── components/
         ├── NavButtons.jsx
         ├── ProgressBar.jsx
-        └── MockupFrame.jsx
+        ├── MockupFrame.jsx
+        └── SlidePlaceholder.jsx
 ```
 
 ## Fila de Execução do Agente
 
 - [x] **AGENTE_ROADMAP.md** criado
 - [x] **Passo 1 (Setup)**: `package.json`, configs Vite/Tailwind/PostCSS e `index.html`. ✅
-- [ ] **Passo 2 (Core App)**: `src/main.jsx` e `src/App.jsx` com Fullscreen API e botões nav.
-- [ ] **Passo 3 (Lógica)**: Hooks `useNavigation` e `useFullscreen`.
-- [ ] **Passo 4 (⛔ INTERVENÇÃO HUMANA)**: Pedir as 10 URLs das imagens.
-- [ ] **Passo 5 (Dados)**: `src/data/slides.js` com array de 10 slides.
-- [ ] **Passo 6 (Renderização Visual)**: Layout final com `MockupFrame` responsivo.
+- [x] **Passo 2 (Core App)**: `src/main.jsx`, `src/App.jsx`, `NavButtons`, `ProgressBar`, `MockupFrame`. ✅
+- [x] **Passo 3 (Lógica)**: `useNavigation` (swipe+teclado) e `useFullscreen`. `slides.js` estruturado. ✅
+- [ ] **Passo 4 (⛔ INTERVENÇÃO HUMANA)**: Aguardando 10 URLs das imagens do Diretor de Produto.
+- [ ] **Passo 5 (Dados)**: Injetar URLs em `src/data/slides.js`.
+- [ ] **Passo 6 (Renderização Visual)**: Construir layout final com `SlideLayout` responsivo.
+
+## Estado das URLs (Passo 4)
+| # | Slide | URL |
+|---|---|---|
+| 1 | Capa | *aguardando* |
+| 2 | Caos | *aguardando* |
+| 3 | App Home | *aguardando* |
+| 4 | Produtos | *aguardando* |
+| 5 | Histórico | *aguardando* |
+| 6 | Segurança | *aguardando* |
+| 7 | Dashboard | *aguardando* |
+| 8 | Multi-obras | *aguardando* |
+| 9 | ROI | *aguardando* |
+| 10 | Lançamento | *aguardando* |
 
 ## Paleta de Design
 | Token | Valor |
